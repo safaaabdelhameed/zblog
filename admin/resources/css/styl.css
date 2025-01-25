@@ -1,0 +1,90 @@
+/* This is style Admin Style File  */
+/* Global Style */
+body{
+    padding-top: 40px;
+}
+.col-sm-2{
+    padding-left: 0;
+}
+
+/* Navbar Style */
+.container a.nav-link{
+    color: #fff;
+
+}
+.navbar{
+    padding: 0;
+}
+.navbar-light .navbar-brand a{
+    color: #fff;
+}
+.nav-link .dropdown-toggle .drop-brand a{
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .show>.nav-link{
+    color: #fff;
+
+}
+
+
+.dropdown-toggle::after{
+    content:none;
+}
+
+/* Admin Sidebar Style */
+.sidebar{
+    padding: 15px;
+    background-color: #343a40;
+    position: fixed;
+    height: 100%;
+    width: 190px;
+    max-width: 190px;
+}
+.sidebar ul {
+    margin-top: 30px;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #8d8888;
+    border-radius: 3px;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    margin-bottom: 5px;
+    transition: .3s ease-in-out;
+}
+.sidebar ul li i{
+    font-size: 16px;
+    margin-right: 6px;
+}
+.sidebar ul li a:hover{
+    color: #fff;
+    background-color: #7e7979;
+}
+
+.sidebar ul li a:active{
+    background-color: #7e7979;
+}
+
+/* Post Style */
+.post h3{
+    margin-top: 15px;
+}
+.error{
+    color: red;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 13px;
+    padding: 0;
+    display: none;
+}
+
+.posts .table-responsive table tbody td.action-links{
+    width: 130px;
+}
+
+.posts .table-responsive table tbody td.action-links form{
+    display: inline;
+}
